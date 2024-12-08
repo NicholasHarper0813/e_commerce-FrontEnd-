@@ -1,0 +1,34 @@
+.relateProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.relateProducts h1 {
+  font-family: "Helvetica Neue";
+}
+
+.relatedproducts-item {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
+}
+.relateProducts hr {
+  width: 200px;
+  height: 4px;
+  border-radius: 10px;
+  background: #252525;
+}
+.relatedProducts-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 50px 0px;
+  gap: 30px;
+}
+@media screen and (max-width: 600px) {
+  .relatedProducts-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0px;
+    gap: 30px;
+  }
+}

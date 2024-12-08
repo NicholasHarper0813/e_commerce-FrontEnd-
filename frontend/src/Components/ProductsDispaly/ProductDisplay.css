@@ -1,0 +1,123 @@
+.productdisplay {
+  display: flex;
+  margin: 0px 80px;
+}
+.productdisplay-left {
+  display: flex;
+  gap: 17px;
+}
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.productdisplay-img-list img {
+  height: 100px;
+}
+.productdisplay-main-img {
+  width: 400px;
+  height: 448px;
+}
+.productdisplay-right {
+  margin: 0px 70px;
+  display: flex;
+  flex-direction: column;
+}
+.productdisplay-right h1 {
+  color: #3d3d3d;
+  font-size: 25px;
+  font-weight: 700;
+}
+.productdisplay-right-star {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  gap: 5px;
+  color: #1c1c1c;
+  font-size: 16px;
+}
+.productdisplay-right-prices {
+  display: flex;
+  margin: 15px 0px;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.productdisplay-right-price-old {
+  color: #818181;
+  text-decoration: line-through;
+}
+.productdisplay-right-price-new {
+  color: #ff4141;
+}
+.productdisplay-right-size h1 {
+  margin-top: 15px;
+  color: #161515;
+  font-size: 20px;
+  font-weight: 600;
+}
+.productdisplay-right-sizes {
+  display: flex;
+  margin: 20px 0px;
+  gap: 20px;
+}
+.productdisplay-right-sizes div {
+  padding: 15px 22px;
+  background: #d1cfcf;
+  border-radius: 3px;
+  border: 1px soild #cecdcd;
+  cursor: pointer;
+}
+.productdisplay-right button {
+  padding: 15px 40px;
+  width: 190px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: #ff4141;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.productdisplay-right-category span {
+  font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+  .productdisplay {
+    margin: 0px 20px;
+    display: inline;
+  }
+  .productdisplay-left {
+    display: flex;
+    gap: 15px;
+  }
+  .productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .productdisplay-img-list img {
+    height: 73px;
+    padding-left: 15px;
+  }
+  .productdisplay-main-img {
+    width: 270px;
+    height: 340px;
+  }
+  .productdisplay-right {
+    margin: 0px 15px;
+  }
+  .productdisplay-right-sizes {
+    margin: 15px 0px;
+    gap: 10px;
+  }
+  .productdisplay-right-sizes div {
+    padding: 10px 18px;
+  }
+  .productdisplay-right button {
+    padding: 14px 10px;
+    width: 150px;
+    margin-bottom: 15px;
+  }
+}
