@@ -1,4 +1,5 @@
-.breadcrum {
+.breadcrum 
+{
   display: flex;
   align-items: center;
   gap: 10px;
@@ -8,8 +9,10 @@
   margin: 40px 80px;
   text-transform: capitalize;
 }
-@media screen and (max-width: 600px) {
-  .breadcrum {
+@media screen and (max-width: 600px) 
+{
+  .breadcrum
+  {
     gap: 5px;
     font-size: 10px;
     margin: 25px 15px 0px 15px;
