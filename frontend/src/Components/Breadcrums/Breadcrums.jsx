@@ -4,7 +4,6 @@ import arrow_icon from "../Asset/breadcrum_arrow.png";
 
 const Breadcrums = (props) => {
   const { product } = props;
-
   return (
     <div className="breadcrum">
       HOME
