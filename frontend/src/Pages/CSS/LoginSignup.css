@@ -1,9 +1,11 @@
-.loginsignup {
+.loginsignup 
+{
   width: 100%;
   background: #b5c8d37c;
   padding: 60px 0px;
 }
-.loginsignup-container {
+.loginsignup-container 
+{
   width: 325px;
   height: 450px;
   background: white;
@@ -11,16 +13,19 @@
   padding: 30px 60px;
   border-radius: 10px;
 }
-.loginsignup-container h1 {
+.loginsignup-container h1 
+{
   font-size: 30px;
 }
-.loginsignup-fields {
+.loginsignup-fields 
+{
   display: flex;
   flex-direction: column;
   gap: 25px;
   margin-top: 30px;
 }
-.loginsignup-fields input {
+.loginsignup-fields input
+{
   height: 40px;
   width: 90%;
   border-radius: 10px;
@@ -31,7 +36,8 @@
   font-size: 18px;
   background: #dfdcdc;
 }
-.loginsignup-container button {
+.loginsignup-container button
+{
   width: 98%;
   height: 40px;
   color: rgba(214, 207, 207, 0.932);
@@ -43,18 +49,21 @@
   cursor: pointer;
   align-items: center;
 }
-.logingsigup-login {
+.logingsigup-login 
+{
   margin-top: 20px;
   color: #5c5c5c;
   font-size: 15px;
   font-weight: 500;
   text-align: center;
 }
-.logingsigup-login span {
+.logingsigup-login span 
+{
   color: #ff4141;
   font-weight: 600;
 }
-.logingsigup-agree {
+.logingsigup-agree
+{
   display: flex;
   align-items: center;
   margin-top: 14px;
@@ -63,34 +72,42 @@
   font-size: 14px;
   font-weight: 500;
 }
-@media screen and (max-width: 600px) {
-  .loginsignup-container {
+@media screen and (max-width: 600px) 
+{
+  .loginsignup-container 
+  {
     width: 250px;
     height: 380px;
     padding: 30px 35px;
   }
-  .loginsignup-container h1 {
+  .loginsignup-container h1
+  {
     font-size: 25px;
   }
-  .loginsignup-fields {
+  .loginsignup-fields
+  {
     gap: 24px;
     margin-top: 25px;
   }
-  .loginsignup-fields input {
+  .loginsignup-fields input 
+  {
     height: 35px;
     width: 90%;
     font-size: 16px;
   }
-  .loginsignup-container button {
+  .loginsignup-container button 
+  {
     width: 98%;
     height: 36px;
     margin-top: 30px;
     font-size: 16px;
   }
-  .logingsigup-login {
+  .logingsigup-login 
+  {
     font-size: 14px;
   }
-  .logingsigup-agree {
+  .logingsigup-agree
+  {
     margin-top: 15px;
     gap: 25px;
   }
