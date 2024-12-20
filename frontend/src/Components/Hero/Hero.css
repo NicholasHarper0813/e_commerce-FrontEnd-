@@ -1,16 +1,21 @@
-.hero {
+.hero 
+{
   height: 70vh;
 }
-.hero img {
+.hero img 
+{
   width: 100%;
   height: 70vh;
   align-items: center;
 }
-@media screen and (max-width: 600px) {
-  .hero {
+@media screen and (max-width: 600px) 
+{
+  .hero 
+  {
     height: 35vh;
   }
-  .hero img {
+  .hero img 
+  {
     width: 100%;
     height: 35vh;
     align-items: center;
