@@ -1,10 +1,12 @@
-.offers {
+.offers 
+{
   width: 100%;
   height: 60vh;
   display: flex;
   background: linear-gradient(180deg, grey 5%, black 70%);
 }
-.offers-left {
+.offers-left
+{
   height: 40vh;
   margin: 65px;
   width: 45vw;
@@ -12,7 +14,8 @@
   background-size: cover;
   border-radius: 5px;
 }
-.offers-right {
+.offers-right
+{
   height: 40vh;
   margin: 65px;
   width: 45vw;
@@ -20,63 +23,77 @@
   background-size: cover;
   border-radius: 5px;
 }
-.offers-left .text {
+.offers-left .text
+{
   padding: 20px;
 }
-.offers-right .text {
+.offers-right .text
+{
   padding: 20px 0px;
   padding-left: 70%;
 }
-.offers button {
+.offers button 
+{
   border: none;
   padding: 8px 8px;
   border-radius: 15px;
   font-weight: 500;
 }
-.text p {
+.text p 
+{
   font-weight: 500;
   font-size: 18px;
 }
-.text h2 {
+.text h2 
+{
   font-size: 25px;
   padding-bottom: 5px;
   color: rgb(235, 26, 26);
 }
-@media screen and (max-width: 600px) {
-  .offers {
+@media screen and (max-width: 600px)
+{
+  .offers 
+  {
     height: 20vh;
     margin-top: -50px;
     margin-bottom: 15px;
   }
-  .offers-left {
+  .offers-left
+  {
     height: 15vh;
     margin: 20px;
     width: 60vw;
   }
-  .offers-right {
+  .offers-right
+  {
     height: 15vh;
     margin: 20px;
     width: 60vw;
   }
-  .offers-right .text {
+  .offers-right .text 
+  {
     padding-left: 10px;
     padding-top: 50px;
   }
-  .offers-left .text {
+  .offers-left .text 
+  {
     padding-left: 10px;
     padding-top: 50px;
   }
-  .offers button {
+  .offers button 
+  {
     border: none;
     padding: 5px 5px;
     border-radius: 15px;
     font-weight: 500;
   }
-  .text p {
+  .text p 
+  {
     font-weight: 500;
     font-size: 18px;
   }
-  .text h2 {
+  .text h2
+  {
     font-size: 20px;
     padding-bottom: 5px;
     color: rgb(235, 26, 26);
